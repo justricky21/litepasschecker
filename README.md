@@ -3,7 +3,7 @@ This is a very "light"weight password checker that takes from kkrypt0nn's  [word
 
 This was built in 15 minutes after an argument of whether the `123456aA@` password was secure or not. I was confident it was at least in rockyou.txt, but nope, it hasn't been captured as a popular password yet.
 
-Anyway, this is pretty jank as it WILL concatenate every wordlist from that repo into your RAM. I could've done so but when I wrote a script for it I ran out of assigned RAM for the file stream and was too lazy to fix it.
+Anyway, this is pretty jank as it WILL concatenate every wordlist from that repo into your RAM.
 
 Afterwards, you are prompted to include your password, and it'll check on the concatenated list for it.
 
